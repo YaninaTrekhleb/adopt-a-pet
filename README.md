@@ -1,2 +1,2 @@
 # adopt-a-pet
-Find a pet Landing Page
+Landing page for a pets finder. 
