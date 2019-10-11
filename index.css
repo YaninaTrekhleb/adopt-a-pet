@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900&display=swap');
+
+.flex-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #a9c2e6cc;
+    margin-bottom: -40px;
+}
+
+.flex-header h1 {
+    align-self: center;
+    font-family: 'Concert One', cursive;
+    font-size: 4em;
+    color: #ffffff;
+}
+
+.header-img img {
+    width: 50%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #96959585;
+}
+
+.nav a {
+    color: #ffffff;
+}
+
+.nav a:hover {
+    color: #706e6e;
+}
+
+.title-description {
+    text-align: center;
+}
+
+.title-description h2 {
+    font-family: 'Heebo', sans-serif;
+    color: #706e6e;
+    font-size: 2.2em;
+    padding: 20px 0;
+}
+
+.title-description p {
+    font-family: 'Heebo', sans-serif;
+    color: #706e6e;
+    font-size: 1.2em;
+}
+
+.form-flex-column {
+    display: flex;
+    flex-direction: column;
+    background-color: #a9c2e6ce;
+    border-radius: 5px;
+}
+
+.form-flex-row-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.form-submit-button {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-end;
+}
+
+.form-button-row {
+    display: flex;
+    flex-direction: row;
+}
+
+div.form-group {
+    padding: 15px 30px;
+}
+
+.form-and-donate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 14rem;
+    font-family: 'Heebo', sans-serif;
+    color: #302f2f;
+    font-size: 1.1em;
+}
+
+.form-group label {
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+div.card.donate {
+    width: 14em;
+}
+
+.form-submit-button .btn-primary,
+a.btn.donate-button.btn-primary,
+.btn.btn-primary {
+    font-family: 'Heebo', sans-serif;
+    color: #ffffff;
+    background-color: #969595dc;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+}
+
+.form-submit-button .btn-primary:hover,
+.btn.btn-primary:hover {
+    background: #666565dc;
+}
+
+.container {
+    margin: 70px 0;
+}
+
+.container .row img {
+    width: 100%;
+}
+
+.container a {
+    text-align: center;
+    color: #302f2f;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: none;
+    color: #a9c2e6cc;
+}
+
+
+.card.mb-3,
+div.card {
+    width: 100%;
+    font-family: 'Heebo', sans-serif;
+    color: #585757;
+} 
+
+.mb-3 h2 {
+    font-size: 2.5em;
+    text-align: center;
+    letter-spacing: 2px;
+} 
+
+h5.card-title {
+    color: #302f2f;
+    font-size: 1.2em;
+} 
+
+p.card-text {
+    color: #302f2f;
+}
+
+div.card-body a {
+    text-decoration: none;
+}
+
+.flex-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-social,
+.footer-organization,
+.footer-information,
+.footer-donate,
+.footer-newsletter {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 30px 20px;
+    color: #706e6e;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.flex-footer h4 {
+    margin-bottom: 30px;
+}
+
+@media (min-width:577px) and (max-width: 800px) {
+    .flex-header {
+        height: 100px;
+    }
+
+    .flex-header h1 {
+        font-size: 3em;
+        margin-bottom: 50px;
+    }
+
+    .header-img {
+        display: none;
+    }
+
+    .title-description h2 {
+        font-size: 1.7em;
+        padding: 10px 0;
+    }
+
+    .title-description p {
+        font-size: 1em;
+    }
+
+    .form-flex-row-img {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form-submit-button {
+        margin-bottom: 30px;
+    }
+
+    div.card.donate {
+        width: 11rem;
+        font-size: 0.9em;
+    }
+
+    .mb-3 h2 {
+        font-size: 1.5em;
+    }
+
+    .flex-footer h4 {
+        font-size: 1.1em;
+    }
+
+    .flex-footer p {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .flex-header {
+        height: 100px;
+        margin: 0;
+    }
+
+    .flex-header h1 {
+        font-size: 3em;
+        margin-bottom: 50px;
+    }
+
+    .header-img {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .title-description h2 {
+        font-size: 1.5em;
+    }
+
+    .form-image img {
+        display: none;
+    }
+
+    .form-and-donate {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-submit-button {
+        margin-bottom: 30px;
+    }
+
+    .form-group label {
+        font-size: 1.2em;
+    }
+
+    input.form-control,
+    select.form-control {
+        font-size: 1em;
+    }
+
+    div.form-group {
+        padding: 10px 20px;
+    }
+
+    div.card.donate {
+        display: none;
+    }
+
+    div.row p {
+        font-size: 1.3em;
+    }
+
+    .mb-3 h2 {
+        font-size: 1.4em;
+    }
+
+    .flex-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-social,
+    .footer-organization,
+    .footer-information,
+    .footer-donate,
+    .footer-newsletter {
+        margin: 20px 5px;
+        text-align: start;
+    }
+
+    .flex-footer h4 {
+        margin-bottom: 10px;
+    }
+}
+
